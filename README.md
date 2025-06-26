@@ -77,6 +77,5 @@ git clone https://github.com/ets1480/mindnest2.git
 # Navigate to the folder and open index.html in your browser
 ## 📫 Contact
 
-Created with ❤ by @ets1480  
-(Leyutsega Abebaw)  
-Email: leyutsegaleyu@gmail.com
+Created by Abenezer Teketel  
+Email: www.abenzerteketel@gmail.com
