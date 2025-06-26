@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindNest — Your AI Mental Wellness Assistant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <i class="fas fa-brain logo-icon gradient-text"></i>
+          <span class="logo-text gradient-text">MindNest</span>
+        </div>
+        
+        <div class="navbar-links">
+          <a href="#" class="nav-link active">Home</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#chatbot" class="nav-link">Chat</a>
+        </div>
+        
+        <div class="navbar-actions">
+          <button id="mode-toggle" class="mode-toggle">
+            <i id="mode-icon" class="fas fa-moon"></i>
+          </button>
+          <button class="mobile-menu-button" id="mobile-menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="#chatbot" class="primary-button try-now-button">
+            Try Now
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+          <a href="#" class="mobile-nav-link active">Home</a>
+          <a href="#features" class="mobile-nav-link">Features</a>
+          <a href="#gallery" class="mobile-nav-link">Gallery</a>
+          <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+          <a href="#chatbot" class="mobile-nav-link">Chat</a>
+          <a href="#chatbot" class="mobile-primary-button">
+            Try Now
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <main class="hero-main">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="hero-title-line">Your AI Companion for</span>
+              <span class="hero-title-line gradient-text">Mental Wellness</span>
+            </h1>
+            <p class="hero-description">
+              MindNest combines AI technology with psychological expertise to help you manage stress, improve focus, and achieve emotional balance.
+            </p>
+            <div class="hero-buttons">
+              <div class="hero-button-container">
+                <a href="#chatbot" class="primary-button hero-primary-button">
+                  Start Chatting
+                </a>
+              </div>
+              <div class="hero-button-container">
+                <a href="#features" class="secondary-button hero-secondary-button">
+                  Learn more
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="hero-image-container">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Person meditating">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="features-container">
+      <div class="features-header">
+        <h2 class="section-subtitle">Features</h2>
+        <h3 class="section-title">How MindNest Helps You Thrive</h3>
+        <p class="section-description">
+          Our AI-powered platform offers comprehensive support for your mental wellbeing.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <i class="fas fa-brain feature-icon"></i>
+          </div>
+          <div class="feature-content">
+            <h4 class="feature-title">Mindfulness Coaching</h4>
+            <p class="feature-description">
+              Personalized meditation and breathing exercises tailored to your current emotional state and needs.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <i class="fas fa-chart-line feature-icon"></i>
+          </div>
+          <div class="feature-content">
+            <h4 class="feature-title">Progress Tracking</h4>
+            <p class="feature-description">
+              Visualize your emotional patterns and improvements over time with our intuitive analytics dashboard.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <i class="fas fa-moon feature-icon"></i>
+          </div>
+          <div class="feature-content">
+            <h4 class="feature-title">Sleep Optimization</h4>
+            <p class="feature-description">
+              Science-backed techniques and bedtime stories to help you fall asleep faster and sleep more deeply.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <i class="fas fa-users feature-icon"></i>
+          </div>
+          <div class="feature-content">
+            <h4 class="feature-title">Community Support</h4>
+            <p class="feature-description">
+              Connect with others on similar journeys in our safe, moderated community spaces.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <div class="gallery-container">
+      <div class="gallery-header">
+        <h2 class="section-subtitle">Gallery</h2>
+        <h3 class="section-title">See MindNest in Action</h3>
+        <p class="section-description">
+          Explore how our platform can transform your mental wellness journey.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Meditation feature">
+          <div class="gallery-card-content">
+            <h4 class="gallery-card-title">Mindfulness Exercises</h4>
+            <p class="gallery-card-description">Guided sessions for all experience levels</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Progress tracking">
+          <div class="gallery-card-content">
+            <h4 class="gallery-card-title">Progress Analytics</h4>
+            <p class="gallery-card-description">Track your emotional wellbeing over time</p>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img class="gallery-image" src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Sleep feature">
+          <div class="gallery-card-content">
+            <h4 class="gallery-card-title">Sleep Stories</h4>
+            <p class="gallery-card-description">Soothing narratives to help you drift off</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="testimonials-container">
+      <div class="testimonials-header">
+        <h2 class="section-subtitle">Testimonials</h2>
+        <h3 class="section-title">What Our Users Say</h3>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img class="testimonial-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah J.">
+            <div class="testimonial-user">
+              <h4 class="testimonial-name">Sarah J.</h4>
+              <p class="testimonial-role">Teacher</p>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "MindNest has transformed my morning routine. The 5-minute mindfulness exercises help me start each day with clarity and purpose."
+          </p>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img class="testimonial-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+            <div class="testimonial-user">
+              <h4 class="testimonial-name">Michael T.</h4>
+              <p class="testimonial-role">Software Engineer</p>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "As someone who struggles with anxiety, the breathing exercises and progress tracking have been game-changers for my mental health."
+          </p>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img class="testimonial-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Priya K.">
+            <div class="testimonial-user">
+              <h4 class="testimonial-name">Priya K.</h4>
+              <p class="testimonial-role">Student</p>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "The sleep stories are magical! I went from taking hours to fall asleep to drifting off in 20 minutes. Life-changing!"
+          </p>
+          <div class="testimonial-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot Section -->
+  <section id="chatbot" class="chatbot-section">
+    <div class="chatbot-container">
+      <div class="chatbot-header">
+        <h2 class="section-subtitle">Chat with MindNest</h2>
+        <h3 class="section-title">Your AI Wellness Companion</h3>
+        <p class="section-description">
+          Available 24/7 to support your mental wellbeing journey.
+        </p>
+      </div>
+
+      <div class="chatbot-window">
+        <div class="chatbot-header-bar">
+          <div class="chatbot-header-content">
+            <div class="chatbot-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="chatbot-header-text">
+              <h3 class="chatbot-title">MindNest Assistant</h3>
+              <p class="chatbot-subtitle">AI-powered mental wellness support</p>
+            </div>
+          </div>
+        </div>
+        
+        <div id="chat-container" class="chat-container">
+          <div class="message bot-message">
+            Hello! I'm your MindNest assistant. How can I support your mental wellness today?
+          </div>
+          <div class="message user-message">
+            Hi! I've been feeling stressed lately.
+          </div>
+          <div class="message bot-message">
+            I'm sorry to hear that. Would you like to try a quick breathing exercise or talk about what's causing your stress?
+          </div>
+        </div>
+        
+        <div class="chatbot-input-container">
+          <form id="chat-form" class="chatbot-form">
+            <input 
+              type="text" 
+              id="chat-input" 
+              placeholder="Type your message here..." 
+              class="chatbot-input"
+              autocomplete="off"
+            >
+            <button   
+              type="submit" 
+              class="chatbot-send-button"
+            >
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <div class="cta-content">
+        <h2 class="cta-title">
+          Ready to transform your mental wellbeing?
+        </h2>
+        <p class="cta-description">
+          Join thousands of users who have found balance with MindNest.
+        </p>
+        <div class="cta-buttons">
+          <div class="cta-button-container">
+            <a href="#chatbot" class="primary-button cta-primary-button">
+              Start Your Free Trial
+            </a>
+          </div>
+          <div class="cta-button-container">
+            <a href="#features" class="secondary-button cta-secondary-button">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3 class="footer-heading">MindNest</h3>
+          <p class="footer-text">
+            Your AI companion for mental wellness, focus, and emotional balance.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-heading">Resources</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Blog</a></li>
+            <li><a href="#" class="footer-link">Guides</a></li>
+            <li><a href="#" class="footer-link">Research</a></li>
+            <li><a href="#" class="footer-link">Help Center</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-heading">Company</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Privacy</a></li>
+            <li><a href="#" class="footer-link">Terms</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3 class="footer-heading">Contact</h3>
+          <ul class="footer-contact">
+            <li class="footer-contact-item">support@mindnest.ai</li>
+            <li class="footer-contact-item">+1 (555) 123-4567</li>
+            <li class="footer-contact-item">123 Wellness Way<br>San Francisco, CA 94107</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2023 MindNest. All rights reserved.
+        </p>
+        <p class="footer-credit">
+          Created with <i class="fas fa-heart footer-heart"></i> by <a href="https://github.com/ets1480" class="footer-creator">@ets1480</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
